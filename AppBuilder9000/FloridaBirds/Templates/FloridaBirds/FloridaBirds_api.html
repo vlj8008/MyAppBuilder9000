@@ -1,0 +1,28 @@
+{% extends 'FloridaBirds/FloridaBirds_base.html' %}
+
+{% block title %}  Florida Birds {% endblock %}
+
+{% block navbar%}{% endblock %}
+
+
+
+{% block content %}
+
+
+<div>
+    <p> this should be showing up here
+
+
+    <p>{% for key, value in holidayList %}
+    <li>{{ value }} {{ key }}</li>
+        {% endfor %}</p>
+
+
+
+    </p>
+
+
+</div>
+
+
+{% endblock %}
